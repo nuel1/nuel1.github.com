@@ -1,0 +1,27 @@
+
+@mixin form-btn{
+    @include button;
+}
+@mixin form-btn-sm {
+    @include button-sm;
+}
+@mixin form-btn-lg {
+    @include button-lg;
+}
+@mixin input{
+    border:transparent;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    & input:last-child{
+        margin-bottom: 0;
+    }
+}
+@mixin input-area--lg {
+    height: 45px;
+    font-size: .98em;
+    padding: 0 18px;
+}
+@mixin input-area--md {
+    height: 35px;
+    font-size: .92em;
+}

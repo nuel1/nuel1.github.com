@@ -1,0 +1,17 @@
+
+@function transition-Func($index, $type...){
+    @return #{nth($type, $index)};
+}
+
+@mixin btn-transition{
+    transition:.4s ease;
+}
+@mixin transition-timing-func($index) {
+    transition-timing-function: transition-Func($index, 'ease', 'ease-in', 'ease-in-out', 'linear');
+}
+@mixin transition-delay($delay){
+    transition-delay: $delay;
+}
+@mixin transition-duration($duration) {
+    transition-duration: $duration;
+}

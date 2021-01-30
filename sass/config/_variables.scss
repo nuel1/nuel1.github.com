@@ -1,0 +1,323 @@
+
+
+// ------------------>
+// Building up my color themes
+// ------------------>
+$theme-color:(
+    "white":(
+        '100': rgb(255, 255, 255),
+        '200': rgb(233, 232, 232),
+        '300': rgb(216, 215, 215),
+        '400': rgb(218, 218, 218),
+        '500':  rgb(216, 216, 216),
+        '600':  rgb(212, 211, 211),
+        '700':  rgb(209, 209, 209),
+        '800':  rgb(204, 204, 204),
+        '900':  rgb(201, 201, 201),
+    ),
+    "black":(
+        '100': rgb(104, 104, 104),
+        '200': rgb(88, 88, 88),
+        '300': rgb(71, 71, 71),
+        '400': rgb(65, 65, 65),
+        '500': rgb(53, 53, 53),
+        '600': rgb(48, 48, 48),
+        '700': rgb(32, 32, 32),
+        '800': rgb(24, 24, 24),
+        '900': rgb(5, 5, 5),
+    ),
+    "red":(
+        '100':rgb(253, 160, 160),
+        '200': rgb(252, 112, 112),
+        '300': rgb(253, 95, 95),
+        '400': rgb(253, 81, 81),
+        '500':rgb(253, 63, 63),
+        '600':rgb(250, 50, 50),
+        '700':rgb(253, 37, 37),
+        '800':rgb(253, 19, 19),
+        '900':rgb(255, 0, 0)
+    ),
+    "blue":(
+        '100':rgb(152, 152, 252),
+        '200': rgb(133, 133, 255),
+        '300':rgb(94, 94, 253),
+        '400': rgb(84, 84, 253),
+        '500': rgb(59, 59, 255),
+        '600': rgb(46, 46, 255),
+        '700': rgb(31, 31, 253),
+        '800': rgb(21, 21, 255),
+        '900': rgb(9, 9, 255)
+    ),
+    'yellow':(
+        '100': rgb(250, 250, 135),
+        '200': rgb(252, 252, 118),
+        '300': rgb(253, 253, 100),
+        '400': rgb(252, 252, 93),
+        '500': rgb(253, 253, 69),
+        '600': rgb(250, 250, 60),
+        '700': rgb(252, 252, 42),
+        '800': rgb(252, 252, 25),
+        '900': rgb(255, 255, 0)
+    ),
+    'pink':(
+        '100':rgb(255, 192, 203),
+        '200':rgb(253, 165, 179),
+        '300':rgb(253, 147, 165),
+        '400':rgb(253, 117, 140),
+        '500':rgb(253, 91, 118),
+        '600':rgb(255, 66, 98),
+        '700':rgb(255, 40, 75),
+        '800':rgb(253, 27, 64),
+        '900':rgb(253, 5, 46),
+    ),
+    'purple':(
+        '100':rgb(255, 0, 255),
+        '200':rgb(230, 5, 230),
+        '300':rgb(206, 3, 206),
+        '400':rgb(179, 4, 179),
+        '500':rgb(163, 3, 163),
+        '600':rgb(138, 1, 138),
+        '700':rgb(114, 1, 114),
+        '800':rgb(105, 1, 105),
+        '900':rgb(83, 2, 83)
+    ),
+    'orange':(
+        '100':rgb(255, 165, 0),
+        '200':rgb(233, 154, 6),
+        '300':rgb(201, 131, 2),
+        '400':rgb(185, 122, 3),
+        '500':rgb(150, 98, 3),
+        '600':rgb(124, 81, 2),
+        '700':rgb(110, 72, 2),
+        '800':rgb(99, 64, 1),
+        '900':rgb(83, 55, 2),
+    ),
+    'green':(
+        '100':rgb(0, 255, 0),
+        '200':rgb(3, 233, 3),
+        '300':rgb(3, 202, 3),
+        '400':rgb(2, 179, 2),
+        '500':rgb(1, 156, 1),
+        '600':rgb(3, 146, 3),
+        '700':rgb(2, 112, 2),
+        '800':rgb(1, 88, 1),
+        '900':rgb(1, 49, 1),
+    ),
+    'light-green':(
+        '100':rgb(151, 250, 151),
+        '200':rgb(127, 252, 127),
+        '300':rgb(110, 253, 110),
+        '400':rgb(90, 253, 90),
+        '500':rgb(66, 253, 66),
+        '600':rgb(46, 255, 46),
+        '700':rgb(31, 253, 31),
+        '800':rgb(22, 255, 22),
+        '900':rgb(7, 255, 7)
+    ),
+    'indigo':(
+        '100':rgb(150, 4, 255),
+        '200':rgb(130, 2, 221),
+        '300':rgb(120, 2, 204),
+        '400':rgb(96, 1, 163),
+        '500':rgb(83, 3, 141),
+        '600':rgb(76, 2, 129),
+        '700':rgb(63, 1, 107),
+        '800':rgb(41, 1, 70),
+        '900':rgb(28, 1, 48),
+    ),
+    'brown':(
+        '100':rgb(165, 42, 42),
+        '200':rgb(146, 39, 39),
+        '300':rgb(128, 35, 35),
+        '400':rgb(121, 31, 31),
+        '500':rgb(110, 27, 27),
+        '600':rgb(92, 22, 22),
+        '700':rgb(90, 21, 21),
+        '800':rgb(77, 18, 18),
+        '900':rgb(59, 12, 12),
+    ),
+    'deep-orange':(
+        '100':rgb(255, 69, 0),
+        '200':rgb(231, 66, 5),
+        '300':rgb(196, 55, 4),
+        '400':rgb(185, 51, 3),
+        '500':rgb(150, 41, 2),
+        '600':rgb(133, 37, 2),
+        '700':rgb(112, 32, 3),
+        '800':rgb(90, 25, 1),
+        '900':rgb(63, 18, 1),
+    ),
+    'sky-blue':(
+        '100':rgb(137, 207, 235),
+        '200':rgb(106, 203, 241),
+        '300':rgb(92, 193, 233),
+        '400':rgb(75, 187, 231),
+        '500':rgb(56, 175, 223),
+        '600':rgb(37, 169, 221),
+        '700':rgb(29, 170, 226),
+        '800':rgb(15, 161, 219),
+        '900':rgb(0, 156, 218),
+    ),
+    'deep-skyblue':(
+        '100':rgb(0, 183, 255),
+        '200':rgb(4, 161, 223),
+        '300':rgb(3, 136, 189),
+        '400':rgb(4, 128, 177),
+        '500':rgb(4, 100, 138),
+        '600':rgb(2, 85, 117),
+        '700':rgb(1, 71, 99),
+        '800':rgb(2, 60, 83),
+        '900':rgb(1, 39, 54),
+    ),
+    'army-green':(
+        '100':rgb(2, 255, 192),
+        '200':rgb(4, 228, 172),
+        '300':rgb(3, 185, 140),
+        '400':rgb(3, 161, 122),
+        '500':rgb(2, 141, 106),
+        '600':rgb(2, 124, 94),
+        '700':rgb(1, 88, 67),
+        '800':rgb(1, 58, 44),
+        '900':rgb(0, 48, 36),
+    )
+);
+
+
+// ------------------------------------------------------->
+// Setting up global variable for reference to colors, 
+// font-size, width, height etc...
+// ------------------------------------------------------->
+
+
+// Colors
+$banner-bg-color:rgba(0, 11, 80,.8);
+$deep-skyblue: #002AB4;
+$deep-blue:#030A37;
+$thin-deep-blue:#050D46;
+$primary-btn-bg-color:#002AB4;
+$form-bg-color:#000631;
+$input-bg-color:#02072B;
+$input-border-color:#354ADB;
+$dark-blue:#000420;
+
+@each $index, $map in $theme-color{
+
+    // --------------------->
+    // Set conditions to correctly assign specific 
+    // colors to created variables(!global)
+    // -------------------->
+
+    @if $index == 'white'{
+        $white-100:map-get($map, '100') !global;
+        $white-200:map-get($map, '200') !global;
+        $white-300:map-get($map, '300') !global;
+        $white-400:map-get($map, '400') !global;
+        $white-500:map-get($map, '500') !global;
+        $white-600:map-get($map, '600') !global;
+        $white-700:map-get($map, '700') !global;
+        $white-800:map-get($map, '800') !global;
+        $white-900:map-get($map, '900') !global;
+    }
+    @if $index == 'black'{
+        $black-100:map-get($map,'100') !global;
+        $black-200:map-get($map,'100') !global;
+        $black-300:map-get($map,'100') !global;
+        $black-400:map-get($map,'100') !global;
+        $black-500:map-get($map,'100') !global;
+        $black-600:map-get($map,'100') !global;
+        $black-700:map-get($map,'100') !global;
+        $black-800:map-get($map,'100') !global;
+        $black-900:map-get($map,'100') !global;
+    }
+}
+
+
+// Font sizes
+$header-lg:3.2em;
+$header-md:1.6em;
+$header-sm:.8em;
+$font-size-default:1.2em;
+
+// Font weight
+$font-weight-100:100;
+$font-weight-200:200;
+$font-weight-300:300;
+$font-weight-400:400;
+$font-weight-500:500;
+$font-weight-600:600;
+$font-weight-700:700;
+$font-weight-800:800;
+$font-weight-900:900;
+
+
+$line-height:1.6rem;
+$margin-0:0;
+$padding-0:0;
+$text-decoration-underline:underline;
+
+// ---------->
+// Layouts...
+
+// 1. Flex
+// -------->
+
+$c-layout-flex:flex;
+$c-layout-inlineflex:inline-flex;
+$c-layout-flex-direction--row:row;
+$c-layout-flex-direction--column:column;
+$c-layout-flex-wrap--wrap:wrap;
+$c-layout-flex-wrap--nowrap:nowrap;
+$c-flex-basis--auto:auto;
+$c-flex-grow:1;
+$c-flex-shrink:1;
+$c-layout-flex-justify--space-evenly:space-evenly;
+$c-layout-flex-justify--space-around:space-around;
+$c-layout-flex-justify--space-between:space-between;
+$c-layout-flex-justify--center:center;
+$c-layout-flex-align--space-evenly:space-evenly;
+$c-layout-flex-align--space-around:space-around;
+$c-layout-flex-align--space-between:space-between;
+$c-layout-flex-align--center:center;
+$-prefix-ms-c-layout-flex: -ms-flexbox;
+$-prefix-ms-c-layout-inlineflex: -ms-inline-flexbox;
+$-prefix-moz-c-layout-flex: -moz-flexbox;
+$-prefix-moz-c-layout-inlineflex: -moz-inline-flexbox;
+$-prefix-webkit-c-layout-flex: -webkit-flexbox;
+$-prefix-webkit-c-layout-inlineflex: -webkit-inline-flexbox;
+
+
+
+$box-sizing--border-box:border-box;
+$border-rounded:50%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

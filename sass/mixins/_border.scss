@@ -1,0 +1,336 @@
+// ------------>
+
+// Deep-skyblue outline/border
+
+// ------------>
+@mixin --border-deep-skyblue{
+    @each $index, $map in $theme-color{
+        @if $index == 'deep-skyblue'{
+            $border-deep-skyblue-100:map-get($map, '100') !global;
+            $border-deep-skyblue-200:map-get($map, '200') !global;
+            $border-deep-skyblue-300:map-get($map, '300') !global;
+            $border-deep-skyblue-400:map-get($map, '400') !global;
+            $border-deep-skyblue-500:map-get($map, '500') !global;
+            $border-deep-skyblue-600:map-get($map, '600') !global;
+            $border-deep-skyblue-700:map-get($map, '700') !global;
+            $border-deep-skyblue-800:map-get($map, '800') !global;
+            $border-deep-skyblue-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+// ------------>
+
+// Sky-blue outline/border
+
+// ------------>
+@mixin --border-sky-blue{
+    @each $index, $map in $theme-color{
+        @if $index == 'sky-blue'{
+            $border-sky-blue-100:map-get($map, '100') !global;
+            $border-sky-blue-200:map-get($map, '200') !global;
+            $border-sky-blue-300:map-get($map, '300') !global;
+            $border-sky-blue-400:map-get($map, '400') !global;
+            $border-sky-blue-500:map-get($map, '500') !global;
+            $border-sky-blue-600:map-get($map, '600') !global;
+            $border-sky-blue-700:map-get($map, '700') !global;
+            $border-sky-blue-800:map-get($map, '800') !global;
+            $border-sky-blue-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+// ------------>
+
+// Army-green outline/border
+
+// ------------>
+@mixin --border-army-green{
+    @each $index, $map in $theme-color{
+        @if $index == 'army-green'{
+            $border-army-green-100:map-get($map, '100') !global;
+            $border-army-green-200:map-get($map, '200') !global;
+            $border-army-green-300:map-get($map, '300') !global;
+            $border-army-green-400:map-get($map, '400') !global;
+            $border-army-green-500:map-get($map, '500') !global;
+            $border-army-green-600:map-get($map, '600') !global;
+            $border-army-green-700:map-get($map, '700') !global;
+            $border-army-green-800:map-get($map, '800') !global;
+            $border-army-green-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+// ------------>
+
+// Deep-orange outline/border
+
+// ------------>
+@mixin --border-deep-orange{
+    @each $index, $map in $theme-color{
+        @if $index == 'deep-orange'{
+            $border-deep-orange-100:map-get($map, '100') !global;
+            $border-deep-orange-200:map-get($map, '200') !global;
+            $border-deep-orange-300:map-get($map, '300') !global;
+            $border-deep-orange-400:map-get($map, '400') !global;
+            $border-deep-orange-500:map-get($map, '500') !global;
+            $border-deep-orange-600:map-get($map, '600') !global;
+            $border-deep-orange-700:map-get($map, '700') !global;
+            $border-deep-orange-800:map-get($map, '800') !global;
+            $border-deep-orange-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+// ------------>
+
+// Brown outline/border
+
+// ------------>
+@mixin --border-brown{
+    @each $index, $map in $theme-color{
+        @if $index == 'brown'{
+            $border-brown-100:map-get($map, '100') !global;
+            $border-brown-200:map-get($map, '200') !global;
+            $border-brown-300:map-get($map, '300') !global;
+            $border-brown-400:map-get($map, '400') !global;
+            $border-brown-500:map-get($map, '500') !global;
+            $border-brown-600:map-get($map, '600') !global;
+            $border-brown-700:map-get($map, '700') !global;
+            $border-brown-800:map-get($map, '800') !global;
+            $border-brown-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+// ------------>
+
+// Indigo outline/border
+
+// ------------>
+@mixin --border-indigo{
+    @each $index, $map in $theme-color{
+        @if $index == 'indigo'{
+            $border-indigo-100:map-get($map, '100') !global;
+            $border-indigo-200:map-get($map, '200') !global;
+            $border-indigo-300:map-get($map, '300') !global;
+            $border-indigo-400:map-get($map, '400') !global;
+            $border-indigo-500:map-get($map, '500') !global;
+            $border-indigo-600:map-get($map, '600') !global;
+            $border-indigo-700:map-get($map, '700') !global;
+            $border-indigo-800:map-get($map, '800') !global;
+            $border-indigo-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+// ------------>
+
+// Lightgreen outline/border
+
+// ------------>
+@mixin --border-light-green{
+    @each $index, $map in $theme-color{
+        @if $index == 'light-green'{
+            $border-light-green-100:map-get($map, '100') !global;
+            $border-light-green-200:map-get($map, '200') !global;
+            $border-light-green-300:map-get($map, '300') !global;
+            $border-light-green-400:map-get($map, '400') !global;
+            $border-light-green-500:map-get($map, '500') !global;
+            $border-light-green-600:map-get($map, '600') !global;
+            $border-light-green-700:map-get($map, '700') !global;
+            $border-light-green-800:map-get($map, '800') !global;
+            $border-light-green-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+// ------------>
+
+// Green outline/border
+
+// ------------>
+@mixin --border-green{
+    @each $index, $map in $theme-color{
+        @if $index == 'green'{
+            $border-green-100:map-get($map, '100') !global;
+            $border-green-200:map-get($map, '200') !global;
+            $border-green-300:map-get($map, '300') !global;
+            $border-green-400:map-get($map, '400') !global;
+            $border-green-500:map-get($map, '500') !global;
+            $border-green-600:map-get($map, '600') !global;
+            $border-green-700:map-get($map, '700') !global;
+            $border-green-800:map-get($map, '800') !global;
+            $border-green-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+// ------------>
+
+// Orange outline/border
+
+// ------------>
+@mixin --border-orange{
+    @each $index, $map in $theme-color{
+        @if $index == 'orange'{
+            $border-orange-100:map-get($map, '100') !global;
+            $border-orange-200:map-get($map, '200') !global;
+            $border-orange-300:map-get($map, '300') !global;
+            $border-orange-400:map-get($map, '400') !global;
+            $border-orange-500:map-get($map, '500') !global;
+            $border-orange-600:map-get($map, '600') !global;
+            $border-orange-700:map-get($map, '700') !global;
+            $border-orange-800:map-get($map, '800') !global;
+            $border-orange-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+// ------------>
+
+// Purple outline/border
+
+// ------------>
+@mixin --border-purple{
+    @each $index, $map in $theme-color{
+        @if $index == 'purple'{
+            $border-purple-100:map-get($map, '100') !global;
+            $border-purple-200:map-get($map, '200') !global;
+            $border-purple-300:map-get($map, '300') !global;
+            $border-purple-400:map-get($map, '400') !global;
+            $border-purple-500:map-get($map, '500') !global;
+            $border-purple-600:map-get($map, '600') !global;
+            $border-purple-700:map-get($map, '700') !global;
+            $border-purple-800:map-get($map, '800') !global;
+            $border-purple-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+// ------------>
+
+// Pink outline/border
+
+// ------------>
+@mixin --border-pink{
+    @each $index, $map in $theme-color{
+        @if $index == 'pink'{
+            $border-pink-100:map-get($map, '100') !global;
+            $border-pink-200:map-get($map, '200') !global;
+            $border-pink-300:map-get($map, '300') !global;
+            $border-pink-400:map-get($map, '400') !global;
+            $border-pink-500:map-get($map, '500') !global;
+            $border-pink-600:map-get($map, '600') !global;
+            $border-pink-700:map-get($map, '700') !global;
+            $border-pink-800:map-get($map, '800') !global;
+            $border-pink-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+
+// ------------>
+
+// Yellow outline/border
+
+// ------------>
+@mixin --border-yellow{
+    @each $index, $map in $theme-color{
+        @if $index == 'yellow'{
+            $border-yellow-100:map-get($map, '100') !global;
+            $border-yellow-200:map-get($map, '200') !global;
+            $border-yellow-300:map-get($map, '300') !global;
+            $border-yellow-400:map-get($map, '400') !global;
+            $border-yellow-500:map-get($map, '500') !global;
+            $border-yellow-600:map-get($map, '600') !global;
+            $border-yellow-700:map-get($map, '700') !global;
+            $border-yellow-800:map-get($map, '800') !global;
+            $border-yellow-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+// ------------>
+
+// Blue outline/border
+
+// ------------>
+@mixin --border-blue{
+    @each $index, $map in $theme-color{
+        @if $index == 'blue'{
+            $border-blue-100:map-get($map, '100') !global;
+            $border-blue-200:map-get($map, '200') !global;
+            $border-blue-300:map-get($map, '300') !global;
+            $border-blue-400:map-get($map, '400') !global;
+            $border-blue-500:map-get($map, '500') !global;
+            $border-blue-600:map-get($map, '600') !global;
+            $border-blue-700:map-get($map, '700') !global;
+            $border-blue-800:map-get($map, '800') !global;
+            $border-blue-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+
+// ------------>
+
+// Red outline/border
+
+// ------------>
+@mixin --border-red{
+    @each $index, $map in $theme-color{
+        @if $index == 'red'{
+            $border-red-100:map-get($map, '100') !global;
+            $border-red-200:map-get($map, '200') !global;
+            $border-red-300:map-get($map, '300') !global;
+            $border-red-400:map-get($map, '400') !global;
+            $border-red-500:map-get($map, '500') !global;
+            $border-red-600:map-get($map, '600') !global;
+            $border-red-700:map-get($map, '700') !global;
+            $border-red-800:map-get($map, '800') !global;
+            $border-red-900:map-get($map, '900') !global;
+        }
+    }
+}
+
+
+
+// ------------>
+
+// Black outline/border
+
+// ------------>
+@mixin --border-black{
+    @each $index, $map in $theme-color{
+        @if $index == 'black'{
+            $border-black-100:map-get($map, '100') !global;
+            $border-black-200:map-get($map, '200') !global;
+            $border-black-300:map-get($map, '300') !global;
+            $border-black-400:map-get($map, '400') !global;
+            $border-black-500:map-get($map, '500') !global;
+            $border-black-600:map-get($map, '600') !global;
+            $border-black-700:map-get($map, '700') !global;
+            $border-black-800:map-get($map, '800') !global;
+            $border-black-900:map-get($map, '900') !global;
+        }
+    }
+}

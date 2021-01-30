@@ -1,0 +1,115 @@
+:root{
+    --font-fontawsome: fontawesome;
+    --font-comic-neue:'Comic Neue';
+    --font-slick: slick;
+    --font-maicons: maicons;
+    --font-inconsolata:inconsolata;
+    --font-flexslider-icon: flexslider-icon;
+    --font-jetbrains-mono:'JetBrains Mono';
+    --line-height: $line-height;
+}
+*,*:before,*:after{
+    box-sizing: $box-sizing--border-box;
+}
+body{
+    margin: $margin-0;
+    padding: $padding-0;
+    ul, blockquote{
+        @extend body;
+    }
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:inherit;
+    font-size: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote{
+    margin: 0;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: $header-lg;
+    line-height:  var(--line-height);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    font-size: $header-md;
+}
+
+h3{
+    font-size: $header-sm;
+}
+
+h1,
+h2,
+h3{
+    line-height: var(--line-height);
+}
+
+h2,
+h3{
+    font-family: inconsolata;
+}
+
+p,
+blockquote,
+span{
+    font-size: inherit;
+}
+
+q{
+    font-size: inherit;
+    line-height: inherit;
+    font-style: italic;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: normal;
+}
+
+img,svg{
+    max-width: 100%;
+    display: inline-block;
+}
+
+input{
+    outline: none;
+}
+
+input[type='text'], input[type='email'], input[type='password'],
+input[type='number'],textarea{
+    font-family: var(--font-inconsolata);
+}
+
+strong{
+    font-weight: $font-weight-700;
+}
+
+span{
+    display: inline-block;
+    line-height: inherit;
+}
+
+em{
+    font-style: italic;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: var(--font-inconsolata);
+}

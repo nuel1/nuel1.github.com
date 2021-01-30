@@ -1,0 +1,94 @@
+@mixin button{
+    padding-top:13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-family: var(--font-fontawsome);
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    border:transparent;
+}
+@mixin button-sm {
+    display: inline-block;
+}
+@mixin button-lg{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+@mixin link-button{
+    text-decoration: none;
+}
+// ------------------>
+
+// Button Primary
+
+// ----------------->
+@mixin  button-primary {
+    background:$primary-btn-bg-color;
+    color:$white-100;
+}
+
+
+// ------------------>
+
+// Button Success
+
+// ----------------->
+@function btn-success-bg-color($bg-color){
+    @each $index, $map in $theme-color{
+        @if $index == 'green'{
+            $color: map-get($map, $bg-color) !global;
+        }
+    }
+    @return $color;
+}
+@mixin button-success{
+    background: btn-success-bg-color('500');
+    color: $white-100;
+}
+
+
+// ------------------>
+
+// Button Warning
+
+// ----------------->
+
+@function btn-warning-bg-color($bg-color){
+    @each $index, $map in $theme-color{
+        @if $index == 'orange'{
+            $color: map-get($map, $bg-color) !global;
+        }
+    }
+    @return $color;
+}
+@mixin button-warning{
+    background: btn-warning-bg-color('500');
+    color: $white-100;
+}
+
+
+
+// ------------------>
+
+// Button Danger
+
+// ----------------->
+
+@function btn-danger-bg-color($bg-color){
+    @each $index, $map in $theme-color{
+        @if $index == 'red'{
+            $color: map-get($map, $bg-color) !global;
+        }
+    }
+    @return $color;
+}
+@mixin button-danger {
+    background: btn-danger-bg-color('700');
+    color:$white-100;
+}
